@@ -1,0 +1,45 @@
+<?php
+include ROOT_PATH.ViewDirectoryName.'/head.phtml';
+?>
+    <center><h1> Library Management System </h1></center>
+    <center><p>Any user can register an account by providing us your details and then user will be able to login to search for books. </p></center>
+    <table>
+        <thead>
+        <td>publisher name</td>
+        <td>author name</td>
+        <td>book type</td>
+        <td>book name</td>
+        <td>published time</td>
+        <td>book status</td>
+        <td>operation</td>
+        </thead>
+    <tbody>
+        <?php
+        foreach ($result as $item) {
+            echo "<th>";
+            echo "<td>{$item['publisher_name']}</td>";
+            echo "<td>{$item['author_name']}</td>";
+            echo "<td>{$item['book_type']}</td>";
+            echo "<td>{$item['book_name']}</td>";
+            echo "<td>{$item['published_time']}</td>";
+            if ($item['book_status'] == 0) {
+                echo "<td>available</td>";
+                echo "<td><button >apply</button></td>";
+            } else {
+                echo "<td>not available</td>";
+                echo "<td>not apply</td>";
+            }
+
+            echo "</th>";
+        }
+
+        ?>
+    </tbody>
+    </table>
+<br/>
+<pre><?php echo $page ?></pre>
+<br/>
+
+<?php
+include ROOT_PATH.ViewDirectoryName.'/foot.phtml';
+?>

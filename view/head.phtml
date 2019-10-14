@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title><?php echo $title; ?></title>
+    <link rel="stylesheet" href="/public/css/nav.css">
+    <link rel="stylesheet" href="/public/css/style.css">
+    <link rel="stylesheet" href="/public/css/nav.css">
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+    </script>
+    <![endif]-->
+
+</head>
+<body>
+<?php
+
+if (isset($_SESSION['user']) && !empty($_SESSION['user']))
+{
+    ?>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/user/search/index">Search</a></li>
+            <li><a href="/user/user/logout ">Logout</a></li>
+        </ul>
+    </nav>
+
+
+
+    <?php
+
+}
+
+
+
+else
+
+{
+
+?>
+
+<nav>
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/user/user/login">Login</a></li>
+        <li><a href="/user/user/register">Register</a></li>
+    </ul>
+</nav>
+
+<?php
+
+}
+
+?>

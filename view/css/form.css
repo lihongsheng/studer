@@ -1,0 +1,30 @@
+/*form CSS*/
+
+fieldset  {
+	margin: 0 auto;					
+	width: 700px;
+}
+body  {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color:pink;
+}
+.row  {
+	float: left;
+	width: 533px;
+	margin-top: 20px;
+}
+.fixedwidth  {
+	float: left;
+	width: 140px;
+}
+.textbox  {
+	display:block;
+
+}
+
+
+
+
+
+
+

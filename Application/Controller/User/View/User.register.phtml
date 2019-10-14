@@ -1,0 +1,43 @@
+<?php
+include ROOT_PATH.ViewDirectoryName.'/head.phtml';
+?>
+    <script type="text/javascript" src="/public/js/regCommon.js"></script>
+<form method="post" action="/User/User/doReister" onsubmit="return checkReg();" enctype="multipart/form-data">
+    <fieldset>
+        <legend>Insert your details</legend>
+
+        <input type="hidden" name="token" value="<?php echo $token; ?>">
+        <div class="row">
+            <label for="Name" class="fixedwidth"> Name:</label>
+            <input type="text" name="Name" id="name" />
+        </div>
+        <div class="row">
+            <label for="UserName" class="fixedwidth"> User Name:</label>
+            <input type="text" name="UserName" id="username" />
+        </div>
+        <div class="row">
+            <label for="Age" class="fixedwidth"> Age:</label>
+            <input type="text" name="Age" id="age" />
+        </div>
+        <div class="row">
+            <label for="Address" class="fixedwidth"> Address:</label>
+            <input type="text" name="Address" id="address" />
+        </div>
+        <div class="row">
+            <label for="Password" class="fixedwidth"> Password:</label>
+            <input type="text" name="Password" id="password" />
+        </div>
+        <div class="row">
+            <label for="Email" class="fixedwidth"> Email:</label>
+            <input type="text" name="Email" id="email" />
+        </div>
+        <div class="row">
+            <input type="submit" name="submit" value="register" />
+            <input type="reset" value="Clear" />
+        </div>
+    </fieldset>
+</form>
+
+<?php
+include ROOT_PATH.ViewDirectoryName.'/foot.phtml';
+?>

@@ -1,0 +1,21 @@
+h1 {
+    color: #13b0c0;
+    padding: 2px;
+    text-align:50px;
+    width: 1500px;  
+    height: 100px;	
+    font-size: 20px;
+}
+html { 
+    background-color: blue;
+}
+nav {
+    background-color: green;
+    padding: 5px;
+    width: 1500px;  
+    height: 100px;	
+    font-size: 20px;
+}
+body {
+    background-color: green ;
+	}
