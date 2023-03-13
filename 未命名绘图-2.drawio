@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-13T06:26:30.816Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="6QnctI8qRwet8DzqUHmq" version="21.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-13T06:30:54.171Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="qk8X8OeqSk54w4mulL5T" version="21.0.2" type="github">
   <diagram id="CiA0y5yd1niHBZKvJF1q" name="第 1 页">
     <mxGraphModel dx="1194" dy="664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -105,6 +105,27 @@
             <mxPoint x="80" y="760" as="sourcePoint" />
             <mxPoint x="720" y="760" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="5VVHCG6FMEltdiLETrqI-35" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="80" width="150" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="5VVHCG6FMEltdiLETrqI-36" value="gitlab" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="775" y="135" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5VVHCG6FMEltdiLETrqI-37" value="日志" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="775" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5VVHCG6FMEltdiLETrqI-38" value="docker&amp;amp;k8s" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="775" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5VVHCG6FMEltdiLETrqI-39" value="Prometheus&amp;amp;Grafana 监控可视化&lt;article data-clipboard-cangjie=&quot;[&amp;quot;root&amp;quot;,{&amp;quot;copyFrom&amp;quot;:&amp;quot;im-native&amp;quot;},[&amp;quot;p&amp;quot;,{},[&amp;quot;span&amp;quot;,{&amp;quot;data-type&amp;quot;:&amp;quot;text&amp;quot;},[&amp;quot;span&amp;quot;,{&amp;quot;data-type&amp;quot;:&amp;quot;leaf&amp;quot;},&amp;quot;Prometheus&amp;amp;Grafana 监控可视化&amp;quot;]]]]&quot; class=&quot;4ever-article&quot;&gt;&lt;/article&gt;&lt;article data-clipboard-cangjie=&quot;[&amp;quot;root&amp;quot;,{&amp;quot;copyFrom&amp;quot;:&amp;quot;im-native&amp;quot;},[&amp;quot;p&amp;quot;,{},[&amp;quot;span&amp;quot;,{&amp;quot;data-type&amp;quot;:&amp;quot;text&amp;quot;},[&amp;quot;span&amp;quot;,{&amp;quot;data-type&amp;quot;:&amp;quot;leaf&amp;quot;},&amp;quot;Prometheus&amp;amp;Grafana 监控可视化&amp;quot;]]]]&quot; class=&quot;4ever-article&quot;&gt;&lt;/article&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="775" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5VVHCG6FMEltdiLETrqI-40" value="告警" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="775" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5VVHCG6FMEltdiLETrqI-41" value="动态配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="775" y="780" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
